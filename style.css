@@ -5,6 +5,7 @@
 * {
     border: 2px solid    red;
     font-family: Montserrat, sans-serif;
+    margin: 0px;
 }
 
 
@@ -12,6 +13,11 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 56px;
+    padding-top: 23px;
+}
+
+.header-logo > h2 {
+    margin: 0px;
 }
 
 .header-links {
@@ -33,7 +39,7 @@ a {
 }
 
 .image-container{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -42,6 +48,7 @@ a {
 .header-logo {
     font-weight: 800;
     font-size: 25px;
+    padding: 3px;
 }
 
 
@@ -49,20 +56,23 @@ img {
     width: 500px;
 }
 
+
 .brief-intro {   
     width: 40%;
+
 }
 
 .brief-intro > h1 {
     font-size: 50px;
-    margin-top: 0;
+    margin: 0;
 }
 
 .header-container {
     background-color: #1f2937;
     color: white;
     padding-inline: 10%;
-    padding-block: 50px;
+    padding-bottom: 50px;
+    margin: 0px;
     
 }
 
