@@ -114,6 +114,7 @@ button {
 .distin {
     display: flex;
     justify-content: space-around;
+    /* flex-direction: column; */
 }
 
 .author {
@@ -128,6 +129,13 @@ button {
     border-radius: 10px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+.pics-titles {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 9px;
 }
 
 .second-block {
